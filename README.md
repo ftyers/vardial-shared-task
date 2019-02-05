@@ -80,7 +80,7 @@ ast    principiu    principiu    NOUN    Gender=Masc|Number=Sing
 
 ### Raw text data
 
-There is raw text data (produced from Wikipedia dumps) available [here](http://cl.indiana.edu/~ftyers/shared-task/wikipedia-data.tar.bz2). You may use it to e.g. train embeddings, or for other purposes.
+For track 2, there is raw text data (produced from Wikipedia dumps) available [here](http://cl.indiana.edu/~ftyers/shared-task/wikipedia-data.tar.bz2). You may use it to e.g. train embeddings, or for other purposes.
 
 ## Language codes
 
