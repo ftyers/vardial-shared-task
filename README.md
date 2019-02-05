@@ -33,7 +33,7 @@ On March 5, we release additional test sets for two surprise languages. Addition
 
 We provide fully annotated _uncovered_ training and development sets for the
 target language and related languages. Below, you can see an example
-of the data format from `train/roa-track2-uncovered`:
+of the data format from `train/roa-uncovered`:
 
 ```
 por    marido      marido      NOUN    Gender=Masc|Number=Sing
