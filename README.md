@@ -178,7 +178,7 @@ results/tur-track2-dev-covered.sys
 These are baseline results on the Asturian and Crimean Tatar development data. Since we use the same baseline system for tracks 1 and 2, the baseline F1-score is the same for both tracks. 
 
 ```
-$ python3 scripts/eval_tabular.py results/rom-track1-dev-covered.sys dev/rom-uncovered 
+$ python3 scripts/eval_tabular.py results/roa-track1-dev-covered.sys dev/roa-uncovered 
 Recall for analysis: 43.33
 Precision for analysis: 42.57
 F1-score for analysis: 42.94
@@ -191,7 +191,7 @@ Recall for tag: 59.50
 Precision for tag: 60.13
 F1-score for tag: 59.81
 
-$ python3 scripts/eval_tabular.py results/tur-track1-dev-covered.sys dev/tur-uncovered 
+$ python3 scripts/eval_tabular.py results/trk-track1-dev-covered.sys dev/trk-uncovered 
 Recall for analysis: 31.24
 Precision for analysis: 38.44
 F1-score for analysis: 34.47
