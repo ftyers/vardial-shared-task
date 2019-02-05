@@ -33,7 +33,7 @@ On March 5, we release additional test sets for two surprise languages. Addition
 
 We provide fully annotated _uncovered_ training and development sets for the
 target language and related languages. Below, you can see an example
-of the data format from `train/ast-track2-uncovered`:
+of the data format from `train/roa-track2-uncovered`:
 
 ```
 por    marido      marido      NOUN    Gender=Masc|Number=Sing
@@ -55,7 +55,7 @@ on several lines with different POS and morphological features.
 We also provide _covered_ data sets which are used as input data for
 the analysis system during development and testing. Here each word
 form occurs exactly once and the lemma, POS and morphological features
-fields are empty. This is an example from `dev/ast-uncovered`
+fields are empty. This is an example from `dev/roa-uncovered`
 
 ```
 ast	otomana      _    _    _
@@ -67,7 +67,7 @@ ast	principiu    _    _    _
 When your system fills in analyses, you should output one line for
 each analysis (the order of the output lines will not affect the
 evaluation script). For example, these are the corresponding lines
-from the file `dev/ast-uncovered`
+from the file `dev/roa-uncovered`
 
 ```
 ast    otomana      otomán       ADJ     Gender=Fem|Number=Sing
@@ -84,7 +84,7 @@ There is raw text data (produced from Wikipedia dumps) available [here](http://c
 
 ## Language codes
 
-### Romance Languages
+### Romance languages (`roa`)
 
 | Code | Language      |
 |------|---------------|
@@ -96,7 +96,7 @@ There is raw text data (produced from Wikipedia dumps) available [here](http://c
 | spa  | Spanish       |
 | ???  | Surprise Language |
 
-### Turkic Languages
+### Turkic languages (`trk`)
 
 | Code | Language      |
 |------|---------------|
