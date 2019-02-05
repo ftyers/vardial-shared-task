@@ -1,8 +1,8 @@
 ONMTPREPROCESS=~/OpenNMT-py/preprocess.py
 
-datasets:onmt-data/rom-track1-src-train.txt onmt-data/tur-track1-src-train.txt \
-onmt-data/rom-track1.train.1.pt onmt-data/rom-track2.train.1.pt \
-onmt-data/tur-track1.train.1.pt onmt-data/tur-track2.train.1.pt
+datasets:onmt-data/roa-track1-src-train.txt onmt-data/trk-track1-src-train.txt \
+onmt-data/roa-track1.train.1.pt onmt-data/roa-track2.train.1.pt \
+onmt-data/trk-track1.train.1.pt onmt-data/trk-track2.train.1.pt
 
 onmt-data/%-track1-src-train.txt: train/%-uncovered
 	python3 scripts/generate_onmt_data.py $* 1
@@ -13,23 +13,23 @@ onmt-data/%.train.1.pt: onmt-data/%-src-train.txt
                                   -valid_src onmt-data/$*-src-dev.txt -valid_tgt onmt-data/$*-tgt-dev.txt \
                                   -save_data onmt-data/$*
 trainmodels:
-	sbatch baseline/train-rom-track1.sh
-	sbatch baseline/train-rom-track2.sh
-	sbatch baseline/train-tur-track1.sh
-	sbatch baseline/train-tur-track2.sh
+	sbatch baseline/train-roa-track1.sh
+	sbatch baseline/train-roa-track2.sh
+	sbatch baseline/train-trk-track1.sh
+	sbatch baseline/train-trk-track2.sh
 
 testmodels:
-	sbatch baseline/test-rom-track1.sh
-	sbatch baseline/test-rom-track2.sh
-	sbatch baseline/test-tur-track1.sh
-	sbatch baseline/test-tur-track2.sh
+	sbatch baseline/test-roa-track1.sh
+	sbatch baseline/test-roa-track2.sh
+	sbatch baseline/test-trk-track1.sh
+	sbatch baseline/test-trk-track2.sh
 
-testresults:results/rom-track1-dev-covered.sys results/rom-track2-dev-covered.sys \
-results/tur-track1-dev-covered.sys results/tur-track2-dev-covered.sys
+testresults:results/roa-track1-dev-covered.sys results/roa-track2-dev-covered.sys \
+results/trk-track1-dev-covered.sys results/trk-track2-dev-covered.sys
 
-results/rom-track%-dev-covered.sys: onmt-data/rom-track%-src-dev.txt.nbest.out
-	cat $^ | python3 scripts/get-analyses.py 0.6 2 dev/rom-covered > $@
+results/roa-track%-dev-covered.sys: onmt-data/roa-track%-src-dev.txt.nbest.out
+	cat $^ | python3 scripts/get-analyses.py 0.6 2 dev/roa-covered > $@
 
-results/tur-track%-dev-covered.sys: onmt-data/tur-track%-src-dev.txt.nbest.out
-	cat $^ | python3 scripts/get-analyses.py 0.1 1 dev/tur-covered > $@
+results/trk-track%-dev-covered.sys: onmt-data/trk-track%-src-dev.txt.nbest.out
+	cat $^ | python3 scripts/get-analyses.py 0.1 1 dev/trk-covered > $@
 
