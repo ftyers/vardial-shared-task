@@ -167,10 +167,10 @@ make testresults
 
 Now you should have the output files for the Asturian and Crimean Tatar development data in the directory `results`:
 ```
-results/rom-track1-dev-covered.sys
-results/rom-track2-dev-covered.sys
-results/tur-track1-dev-covered.sys
-results/tur-track2-dev-covered.sys
+results/roa-track1-dev-covered.sys
+results/roa-track2-dev-covered.sys
+results/trk-track1-dev-covered.sys
+results/trk-track2-dev-covered.sys
 ```
 
 ### Baseline Results for Development Data
