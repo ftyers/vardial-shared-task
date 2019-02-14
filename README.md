@@ -100,8 +100,6 @@ For track 2, there is raw text data (produced from Wikipedia dumps) available [h
 * [UD_Portuguese-Bosque](http://github.com/UniversalDependencies/UD_Portuguese-Bosque)
 * [UD_Portuguese-GSD](http://github.com/UniversalDependencies/UD_Portuguese-GSD)
 * [UD_Portuguese-PUD](http://github.com/UniversalDependencies/UD_Portuguese-PUD)
-* [UD_Romanian-Nonstandard](http://github.com/UniversalDependencies/UD_Romanian-Nonstandard)
-* [UD_Romanian-RRT](http://github.com/UniversalDependencies/UD_Romanian-RRT)
 * [UD_Spanish-AnCora](http://github.com/UniversalDependencies/UD_Spanish-AnCora)
 * [UD_Spanish-GSD](http://github.com/UniversalDependencies/UD_Spanish-GSD)
 * [UD_Spanish-PUD](http://github.com/UniversalDependencies/UD_Spanish-PUD)
@@ -115,6 +113,9 @@ For track 2, there is raw text data (produced from Wikipedia dumps) available [h
 
 
 ### Bilingual dictionaries
+
+Bilingual dictionaries from the Apertium project that have been preprocessed into tabular format can be 
+found under [supplementary data](supplementary-data/).
 
 ## Language codes
 
