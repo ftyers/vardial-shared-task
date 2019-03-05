@@ -1,1 +1,1 @@
-The test sets for Romance and Turkic languages `roa-covered` and `trk-covered`, respectively, will be released on March 5, 2019.
+The test sets for Romance and Turkic languages `roa-covered` and `trk-covered`, respectively, were released on March 5, 2019.
