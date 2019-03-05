@@ -31,7 +31,7 @@ On March 5, we release additional test sets for two surprise languages. Addition
 
 __The test input forms have now been released!__ Check the directory `test`.
 
-Unannotated data for the test languages is available [here](http://ilazki.thinkgeek.co.uk/~spectre/wikipedia-data-test.tar.bz2)
+Unannotated data for the test languages is available [here](http://ilazki.thinkgeek.co.uk/~spectre/wikipedia-data-test.tar.bz2).
 
 ## Submission 
 
