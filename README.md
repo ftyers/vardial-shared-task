@@ -27,7 +27,7 @@ On February 5, we release training sets for the Romance languages (Catalan, Fren
 
 On March 5, we release additional test sets for two surprise languages. Additionally, we release unannotated corpora for both of the surprise languages. Competitors then train systems on the related language training sets for track 1 and the related language training set and unannotated data for track 2. They then submit their test set predictions. We will be evaluating system performance on the surprise language test sets.   
 
-=The test input forms have now been released!=
+__The test input forms have now been released!__
 
 ## Data Formats
 
