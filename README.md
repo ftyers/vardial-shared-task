@@ -31,6 +31,10 @@ On March 5, we release additional test sets for two surprise languages. Addition
 
 __The test input forms have now been released!__ Check the directory `test`.
 
+## Submission 
+
+Please, name your tagged test sets in the following way: `roa-uncovered.N.TEAM` and `trk-uncovered.N.TEAM`. Here `N`is the track number and `TEAM` is your team name. Send your output files to vardial2019cma 'at' gmail 'dot' com. Please indicate your name and team name in the email message.
+
 ## Data Formats
 
 ### Uncovered data
