@@ -1,5 +1,7 @@
 # Shared Task on Cross-Lingual Morphological Analysis
 
+__The test input forms have now been released!__ Check the directory `test`.
+
 We introduce the task of cross-lingual morphological analysis. Given a word in an unknown related language, for example "navifraghju" ("shipwreck" in Corsican), a human speaker of several related languages is able to deduce that it is a noun in the singular by making deductions from similar words, for example: "naufragi" (Catalan), "naufragio" (Spanish, Italian), "naufrágio" (Portuguese) and "naufrage" (French). In this task we invite participants to create computational models which will be able to do the same. Two language families are represented, Romance (fusional morphology) and Turkic (agglutinative morphology). 
 
 ## Tracks
