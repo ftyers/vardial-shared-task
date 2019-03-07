@@ -1,5 +1,7 @@
 # Shared Task on Cross-Lingual Morphological Analysis
 
+__The test input forms have now been released!__ Check the directory `test`.
+
 We introduce the task of cross-lingual morphological analysis. Given a word in an unknown related language, for example "navifraghju" ("shipwreck" in Corsican), a human speaker of several related languages is able to deduce that it is a noun in the singular by making deductions from similar words, for example: "naufragi" (Catalan), "naufragio" (Spanish, Italian), "naufrágio" (Portuguese) and "naufrage" (French). In this task we invite participants to create computational models which will be able to do the same. Two language families are represented, Romance (fusional morphology) and Turkic (agglutinative morphology). 
 
 ## Tracks
@@ -26,6 +28,14 @@ We encourage participants to provide thorough error analysis.
 On February 5, we release training sets for the Romance languages (Catalan, French, Italian, Portuguese, Spanish) and the Turkic languages (Bashkir, Kazakh, Kyrgyz, Tatar, Turkish). We also release development sets for the Romance language Asturian and the Turkic language Crimean Tatar. In addition, we release unannotated corpora for Asturian and Crimean Tatar.
 
 On March 5, we release additional test sets for two surprise languages. Additionally, we release unannotated corpora for both of the surprise languages. Competitors then train systems on the related language training sets for track 1 and the related language training set and unannotated data for track 2. They then submit their test set predictions. We will be evaluating system performance on the surprise language test sets.   
+
+__The test input forms have now been released!__ Check the directory `test`.
+
+Unannotated data for the test languages is available [here](http://ilazki.thinkgeek.co.uk/~spectre/wikipedia-data-test.tar.bz2).
+
+## Submission 
+
+Please, name your tagged test sets in the following way: `roa-uncovered.N.TEAM` and `trk-uncovered.N.TEAM`. Here `N`is the track number and `TEAM` is your team name. Send your output files to vardial2019cma 'at' gmail 'dot' com at the latest March 8, 23:59 UTC-12. Please, indicate your name and team name in the email message.
 
 ## Data Formats
 
