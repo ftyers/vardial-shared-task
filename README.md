@@ -22,8 +22,8 @@ We encourage participants to provide thorough error analysis.
 
 * Training set release: February 5, 2019
 * Test set release: March 5, 2019
-* Submissions due: March 8, 2019
-* Results announced: March 12, 2019
+* Submissions due: ~~March 8, 2019~~ __EXTENSION: March 13, 2019 (23:59 UTC-12)__
+* Results announced: ~~March 12, 2019~~ March 17, 2019 
 
 On February 5, we release training sets for the Romance languages (Catalan, French, Italian, Portuguese, Spanish) and the Turkic languages (Bashkir, Kazakh, Kyrgyz, Tatar, Turkish). We also release development sets for the Romance language Asturian and the Turkic language Crimean Tatar. In addition, we release unannotated corpora for Asturian and Crimean Tatar.
 
